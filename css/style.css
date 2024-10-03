@@ -554,8 +554,24 @@ img {
 .portfolio__data .tech-ava {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 1rem;
-  gap: 1rem;
+  padding: 1rem 0 1rem 0;
+  gap: 0.5rem;
+}
+
+.portfolio__data .tech-ava .logo-container {
+  width: 40px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: 40px; /* Sesuaikan ukuran sesuai kebutuhan */
+  border-radius: 10%; /* Membuat border menjadi lingkaran */
+  overflow: hidden; /* Menghindari elemen keluar dari lingkaran */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio__data .tech-ava .logo-container svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .portfolio__data .links-btn {
@@ -576,6 +592,16 @@ img {
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
 }
+
+.portfolio__description__add {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.portfolio__description__add span a:hover {
+  color: var(--first-color);
+}
+
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
