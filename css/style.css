@@ -577,7 +577,7 @@ img {
 .portfolio__data .links-btn {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
+  gap: 0.5rem;
 }
 
 .portfolio__img {
@@ -816,7 +816,6 @@ img {
   .skills__title {
     font-size: var(--normal-font-size);
   }
-
   .services__container {
     justify-content: center;
   }
